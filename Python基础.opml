@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+	<head>
+		<dateCreated>Wed Apr 01 2020 16:17:11 GMT+0800 (中国标准时间)</dateCreated>
+		<dateModified>Wed Apr 01 2020 16:17:11 GMT+0800 (中国标准时间)</dateModified>
+	</head>
+	<body>
+		<outline text="Python基础">
+			<outline text="开发环境">
+				<outline text="进入:终端，输入python3"></outline>
+				<outline text="退出：Ctrl+D或输入exit()"></outline>
+			</outline>
+			<outline text="数据类型">
+				<outline text="整数：int 不带小数点"></outline>
+				<outline text="浮点数：float 带小数点"></outline>
+				<outline text="布尔数：bool 只有true和false两种：1和0"></outline>
+				<outline text="空值：None 表示无"></outline>
+				<outline text="字符串">
+					<outline text="&apos;Hello World!&apos;"></outline>
+					<outline text="字符串用英文引号包裹，单双引号均可，但要前后配套"></outline>
+					<outline text="三引号可以打印多行内容"></outline>
+					<outline text="字符串索引：变量赋值之后，变量名[数字]，整数代表从左往右数，负数代表从右往左数"></outline>
+					<outline text="注释">
+						<outline text="#单行注释"></outline>
+					</outline>
+				</outline>
+				<outline text="变量">
+					<outline text="装数据的盒子，如name=&apos;伊泽瑞尔&apos;,hp=500,mp=200"></outline>
+					<outline text="关键字/保留字"></outline>
+				</outline>
+			</outline>
+			<outline text="运算符">
+				<outline text="算术运算符">
+					<outline text="加：+"></outline>
+					<outline text="减：-"></outline>
+					<outline text="乘：*"></outline>
+					<outline text="除：/"></outline>
+					<outline text="取模：% 返回除法的余数"></outline>
+					<outline text="幂：**"></outline>
+					<outline text="取整除：// 向下取整"></outline>
+				</outline>
+				<outline text="比较运算符">
+					<outline text="等于：=="></outline>
+					<outline text="不等于：!="></outline>
+					<outline text="大于：&gt;"></outline>
+					<outline text="小于：&lt;"></outline>
+					<outline text="大于等于：&gt;="></outline>
+					<outline text="小于等于：&lt;="></outline>
+				</outline>
+				<outline text="赋值运算符">
+					<outline text="赋值：="></outline>
+					<outline text="加法赋值：+="></outline>
+					<outline text="减法赋值：-="></outline>
+					<outline text="乘法赋值：*="></outline>
+					<outline text="除法赋值：/="></outline>
+					<outline text="取模法赋值：% =返回除法的余数"></outline>
+					<outline text="幂法赋值：**="></outline>
+					<outline text="取整除法赋值：//= 向下取整"></outline>
+				</outline>
+				<outline text="逻辑运算符">
+					<outline text="与：and"></outline>
+					<outline text="或：or"></outline>
+					<outline text="非：not"></outline>
+				</outline>
+			</outline>
+			<outline text="函数">
+				<outline text="输出：print() ">
+					<outline text="可加‘’或者“”输出字符串"></outline>
+					<outline text="可输出数字"></outline>
+					<outline text="可输出运算结果"></outline>
+					<outline text="输出字符串中存在‘和“的冲突时，需要在符号前叫转义符\"></outline>
+					<outline text="括号里可以放已定义的变量，如果没有提前定义则会报错"></outline>
+				</outline>
+				<outline text="输入：input()">
+					<outline text="变量=input(&quot;字符串&quot;) 字符串是打印出来的 内容，输入的值赋给变量"></outline>
+				</outline>
+				<outline text="format()">
+					<outline text="插入数据">
+						<outline text="print(&apos;你叫&apos;+name+&apos;，今年&apos; + age + &apos;岁了&apos;)">
+							<outline text="print(&apos;你叫{}，今年{}岁了&apos;.format(name,age))"></outline>
+						</outline>
+					</outline>
+					<outline text="数字格式化">
+						<outline text="print(&quot;{:.2f}&quot;.format(3.1415926))输出小数点后位数控制"></outline>
+					</outline>
+				</outline>
+			</outline>
+		</outline>
+		<outline text="XMind: ZEN - Trial Version"></outline>
+	</body>
+</opml>
